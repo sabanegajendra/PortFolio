@@ -1,0 +1,99 @@
+.columns-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-col-block {
+    width: 50%;
+    position: fixed;
+    text-align: center;
+    overflow: hidden;
+    background: purple;
+    height: 100vh;
+    left: 0;
+}
+
+.header {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+}
+
+.header .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.header .content h1 {
+    color: blanchedalmond;
+    font-size: 30px;
+    line-height: 1;
+    margin: 10px;
+}
+
+.header .content p {
+    color: beige;
+    line-height: 1;
+    
+}
+
+.header .content .social-icon {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.header .content .social-icon li {
+    display: inline-block;
+    margin: 0 6px;
+    
+}
+
+.header .content .social-icon li a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    color: blanchedalmond;
+    font-size: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid gray;
+    
+}
+
+.header .content .social-icon li a:hover {
+    border-color: blanchedalmond;
+}
+
+.right-col-block {
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+.section-wrapper {
+    padding: 40px;
+}
+
+.section-title {
+    margin-bottom: 15px;
+}
+
+.expertise-item {
+    margin-bottom: 30px;
+}
+
+.expertise-item h3 {
+    color: black;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
